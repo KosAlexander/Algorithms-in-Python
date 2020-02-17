@@ -1,5 +1,5 @@
 # 5.Пользователь вводит две буквы. Определить, на каких местах алфавита они стоят, и сколько между ними находится букв.
-#   https://drive.google.com/file/d/1fea_DgbzH905YaD1mmonc1jM65vSyMsB/view?usp=sharing
+#   https://drive.google.com/file/d/12fJPEO0ijZLsImTOq8CxS4EHqo-x5Ln5/view?usp=sharing
 print('Введите две буквы')
 letter_1 = input()
 letter_2 = input()
