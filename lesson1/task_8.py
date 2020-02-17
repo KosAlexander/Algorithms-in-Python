@@ -1,5 +1,5 @@
 # 8.Определить, является ли год, который ввел пользователь, високосным или не високосным.
-
+#  https://drive.google.com/file/d/1VfB8kvLwLYXJK_hWZbZjvRK8f4FXb6Gi/view?usp=sharing
 year = int(input('Введите год: '))
 
 if year % 4 != 0:
