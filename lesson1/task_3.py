@@ -10,7 +10,9 @@ print("Введите координаты точки B:")
 x2 = int(input('x2: '))
 y2 = int(input('y2:'))
 
-k = (y1 - y2) / (x1 - x2)
-b = y2 - k * x2
-
-print(f'y = {k}x + {b}')
+if x1 == x2:
+    print(f'x = {x1:.3f}')
+else:
+    k = (y1 - y2) / (x1 - x2)
+    b = y2 - k * x2
+    print(f'y = {k}x + {b}')
